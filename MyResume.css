@@ -218,7 +218,8 @@ body {
   ); /* You can adjust this percentage for each skill */
   /* Green color for progress */
 }
-.progressSkill1 {
+
+.progress-bar .progressSkill1 {
   width: 99%; /* CSS for the width of the progressSkill2 div */
 }
 .progressSkill2 {
