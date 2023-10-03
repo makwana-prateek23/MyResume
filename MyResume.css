@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  margin: 50px;
+}
+
+.container .left {
+  position: relative;
+  background-color: rgb(12, 28, 97);
+  padding: 40px;
+}
+
+.ProfileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ProfileText .Image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.ProfileText .Image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ProfileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.ProfileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.ContactDetails {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.ContactDetails ul {
+  position: relative;
+  list-style: none;
+  font-size: 0.8rem;
+  color: #fff;
+  padding-left: 0;
+}
+.ContactDetails .icon {
+  margin-right: 16px;
+  color: rgb(53, 139, 244);
+}
+.Education {
+  position: relative;
+}
+.Education .Study {
+  color: #fff;
+  text-align: center;
+}
+.Education span {
+  position: relative;
+  display: block;
+  font-size: 0.9rem;
+  margin-right: 2px;
+}
+.Education .course {
+  color: #fff;
+}
+.Education .year {
+  color: lightblue;
+}
+.Education .CollegeName {
+  color: rgb(87, 133, 191);
+  margin-bottom: 2px;
+}
+.Education ul {
+  list-style: none;
+}
+.languages {
+  position: relative;
+}
+.languages .language-head {
+  color: #fff;
+  text-align: center;
+}
+.progress-barl {
+  width: 100px;
+  height: 10px;
+  background-color: #ececec;
+  border-radius: 50px 50px 50px 50px;
+}
+.languages .skill-label {
+  color: #fff;
+}
+.languages .progress-bar {
+  width: 100px;
+}
+.container .right {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+.Profile h3 {
+  color: rgb(87, 133, 191);
+  text-transform: uppercase;
+}
+.Experience {
+  margin-top: 20px;
+}
+
+.Experience h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(87, 133, 191);
+}
+
+.intern {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+.Company {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.Profession {
+  flex: 1;
+  font-size: 0.9rem; /* Adjust profession font size as needed */
+  line-height: 1.3; /* Add line height for better readability */
+}
+
+.Company p {
+  margin: 0;
+}
+
+/* Add additional styling as needed for the profession text */
+.skill {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.skill h3 {
+  text-transform: uppercase;
+  color: rgb(87, 133, 191);
+}
+
+.skill-label {
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 10px;
+  background-color: #ccc;
+  border: 1px solid #333;
+  position: relative;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.progressSkill {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(
+    53,
+    139,
+    244
+  ); /* You can adjust this percentage for each skill */
+  /* Green color for progress */
+}
+.hobbeis h3 {
+  position: relative;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  color: rgb(87, 133, 191);
+}
+.hobbeis ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6rem;
+}
